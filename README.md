@@ -1,7 +1,7 @@
 
 [My Calculator]( https://taguhika.github.io/myCalculator/)
 
-##### Basic Calculator, can do basic math. 
+ Basic Calculator, can do basic math. 
 
 Future Tasks:
 

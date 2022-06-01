@@ -1,4 +1,4 @@
- * {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -14,35 +14,59 @@
 } 
 
 .output {
-    height: 50px;
-    width: 210px;
-    background-color: rgb(175, 171, 163);
-    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    padding:  10px;
+    align-items: center;
+    height: 64px;
+    width: 270px;
+    background-color: #717c89;
+    border: none;
+    border-radius: 30px;
+
 }
 
 .allclear{
-    height: 50px;
-    width: 50px;
+    height: 64px;
+    width: 62px;
+    background-color: #EAF0CE;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
  
 }
 .operator {
-    height: 50px;
-    width: 50px;
-    background-color: darkorange;
+    height: 64px;
+    width: 62px;
+    background-color: #f19a3e;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
 }
 
 .number {
-    height: 50px;
-    width: 50px;
+    height: 64px;
+    width: 62px;
+    background-color: #EAF0CE;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
 }
 
 .result {
-    height: 50px;
-    width: 50px;
-    background-color: darkorange;
+    height: 64px;
+    width: 62px;
+    background-color: #717c89;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
 }
 
 .zero {
-    height: 50px;
-    width: 105px;
+    height: 64px;
+    width: 128px;
+}
+
+.circle {
+    margin: 1px;
 }

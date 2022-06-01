@@ -1,0 +1,48 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+} 
+
+ .calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+} 
+
+.output {
+    height: 50px;
+    width: 210px;
+    background-color: rgb(175, 171, 163);
+    border: 1px solid black;
+}
+
+.allclear{
+    height: 50px;
+    width: 50px;
+ 
+}
+.operator {
+    height: 50px;
+    width: 50px;
+    background-color: darkorange;
+}
+
+.number {
+    height: 50px;
+    width: 50px;
+}
+
+.result {
+    height: 50px;
+    width: 50px;
+    background-color: darkorange;
+}
+
+.zero {
+    height: 50px;
+    width: 105px;
+}

@@ -8,6 +8,6 @@ Future Tasks:
 * Resposnive design.
 * Create a history of the previous operations.
 
-![myCalculator](./myCalculator.png?raw=true "myCalculator")
+![MyCalculator](./MyCalculator.gif?raw=true "myCalculator")
 
 
